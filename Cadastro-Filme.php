@@ -17,6 +17,8 @@ include("Menu.php");
 <form name = "cadFilmes" action="Gravar-Filme.php" method="post">
 <p><label>Título</label>
 <input type="text" name="titulofilme"></p>
+<p><label>Duração</label>
+<input type="text" name="duracaofilme"></p>
 <p><label>Valor</label>
 <input type="text" name ="valorLocacao"></p>
 <p><label>Categoria</label>
