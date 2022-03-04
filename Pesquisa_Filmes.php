@@ -9,8 +9,8 @@
 <title>Lista de Filmes - Locadora IFPR</title> 
 </head>
 <body>
-<h1> Pesqyusa de Filmes</h1>
-<form name="pesquisa" action="pesquisa_filmes.php" method="get">
+<h1> Pesquisa de Filmes</h1>
+<form name="pesquisa" action="Pesquisa_Filmes.php" method="get">
 <label>Pesquisa de Filmes</label> <input type="text" name="pesquisa">
 <input type="submit" value ="Pesquisar">
 </form>
@@ -32,3 +32,4 @@ for($i;$i<$num_linhas;$i++){
 
 </body>
 </html>
+
