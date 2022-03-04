@@ -25,7 +25,7 @@ echo "<tr><th> Titulo do Filme </td><td>Categoria</tr>";
 for($i;$i<$num_linhas;$i++){
     $dados = mysqli_fetch_array($sqlRegistros);
     $tituloFilme = $dados["tituloFilme"];
-    $nomeCategoria = $dadps["nomeCategoria"];
+    $nomeCategoria = $dados["nomeCategoria"];
     echo "<tr> <td>$tituloFilme</td><td>$nomeCategoria</tr>";
     }
 ?>
